@@ -1,5 +1,16 @@
 const sheds = { A: 510, B: 308, C: 486, D: 572 };
-
+const months = {
+	january: 31,
+	february: 29,
+	march: 31,
+	june: 30,
+	july: 31,
+	august: 31,
+	september: 30,
+	october: 31,
+	november: 30,
+	december: 31,
+};
 function totalProduction() {
 	printProductionToConsole();
 
@@ -45,13 +56,25 @@ function printProductionToConsole() {
 
 	console.log("The total production is " + totalResult() + postFix);
 }
-// function submitInputs() {
-// 	let BuyingPrice = document.getElementById("buying").value;
-// 	let numberOfDays = document.getElementById("days").value;
-// 	// console.log([BuyingPrice, numberOfDays]);
-// 	return [BuyingPrice, numberOfDays];
-// }
-
-// let myValues = submitInputs();
-
-// console.log(myValues);
+function incomeOverTime(selling_price, time) {
+	return totalResult() * selling_price * time;
+}
+function submitInputs() {
+	let resultContainer = document.getElementById("time-div");
+	let BuyingPrice = Number(document.getElementById("buying").value);
+	let numberOfDays = Number(document.getElementById("days").value);
+	// console.log([BuyingPrice, numberOfDays]);
+	let result = incomeOverTime(BuyingPrice, numberOfDays);
+	console.log(result);
+	console.log(BuyingPrice);
+	console.log(calculateMonthlyIncome(BuyingPrice));
+	resultContainer.innerHTML = `Your income is ${result}`;
+	return [BuyingPrice, numberOfDays];
+}
+function calculateMonthlyIncome(selling_price) {
+	let prefix = "Your income for ";
+	Object.keys(months).forEach((month) => {
+		let monthTotal = months[month] * selling_price * totalResult();
+		console.log(prefix + month + " is " + monthTotal);
+	});
+}
