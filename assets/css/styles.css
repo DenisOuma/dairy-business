@@ -9,3 +9,69 @@ body {
 .material-symbols-rounded {
 	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 }
+
+.container {
+	display: flex;
+	width: 100%;
+}
+
+/* styling the side bar */
+.side-bar {
+	background-color: #2a3f54;
+	width: 15%;
+	height: 100vh;
+	padding: 20px;
+}
+.logo {
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.admin-profile-img {
+	height: 50px;
+	width: 50px;
+}
+.admin-profile-img > img {
+	height: inherit;
+	width: inherit;
+	object-fit: cover;
+	border-radius: 50%;
+}
+.logo-img {
+	height: 30px;
+	width: 30px;
+	cursor: pointer;
+}
+.logo-img > img {
+	height: inherit;
+	width: inherit;
+	background-color: blanchedalmond;
+	border-radius: 50%;
+	border: 1px solid goldenrod;
+}
+.logo > h1 {
+	color: blanchedalmond;
+	margin-left: 10px;
+	font-size: 15px !important;
+	cursor: pointer;
+}
+.admin-profile {
+	display: flex;
+	align-items: center;
+}
+.welcome {
+	margin-left: 10px;
+}
+.welcome h4,
+h2 {
+	color: blanchedalmond;
+	font-weight: 300;
+}
+.welcome > h2 {
+	font-size: 14px;
+	font-weight: 400 !important;
+}
+.welcome > h4 {
+	font-size: 9px;
+	/* font-weight: 400 !important; */
+}
