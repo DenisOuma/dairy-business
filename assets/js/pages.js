@@ -1,5 +1,7 @@
 const dashboard = document.getElementById("data-renderd");
 const information = document.getElementById("data-renderd");
+const totalSales = document.getElementById("data-renderd");
+
 function dashboardPage() {
 	dashboard.innerHTML = `<div class="dashboard-section">
     <h1>This week Best Breed</h1>
@@ -105,9 +107,46 @@ function productionPage() {
 </div>`;
 }
 
-function anotheventPage() {
-	console.log("Hello");
-	const evntlisten = document.getElementById("test");
-	evntlisten.innerHTML = `<strong> Hello World 3</strong>`;
-	information.appendChild(dashboard);
+function salesInYears() {
+	evntlisten.innerHTML = `<div class="dashboard-section">
+    <h1>Production Report</h1>
+</div>
+<div class="production-section">
+    <div class="empty-div">
+        <label for="Enter ">Buying Rate</label>
+        <input id="buying" type="text" placeholder="Ksh. " />
+        <label for="Enter ">Weeks/years</label>
+        <input id="days" type="text" placeholder="Weeks or Years" />
+        <button onclick="submitInputs()" class="income-rate">
+            Income Rate
+        </button>
+    </div>
+    <button id="show-total" onclick="monthlySalesIncome()">
+        Production
+    </button>
+</div>
+<div id="test">
+    <div class="production-data-day">
+        <div id="table-container">
+            <table>
+                <tr>
+                    <th>Months</th>
+
+                    <th>Price In KSH</th>
+
+                    <th>Rates</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sum-production">
+            <div class="emty"></div>
+            <div class="total">
+                Total Revenue in Year:
+                <span id="prod-total">0</span>
+            </div>
+        </div>
+        <div id="time-div"></div>
+    </div>
+</div>`;
 }
