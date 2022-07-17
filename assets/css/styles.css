@@ -375,7 +375,7 @@ h2 {
 
 	height: 600;
 }
-.production-data-day > table {
+table {
 	margin: auto;
 	border-collapse: collapse;
 	font-size: 10px;
