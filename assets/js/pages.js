@@ -61,10 +61,49 @@ function dashboardPage() {
     </div>
 </div>`;
 }
+function productionPage() {
+	information.innerHTML = `<div class="dashboard-section">
+    <h1>Production Report</h1>
+</div>
+<div class="production-section">
+    <div class="empty-div">
+        <label for="Enter ">Buying Rate</label>
+        <input id="buying" type="text" placeholder="Ksh. " />
+        <label for="Enter ">Weeks/years</label>
+        <input id="days" type="text" placeholder="Weeks or Years" />
+        <button onclick="submitInputs()" class="income-rate">
+            Income Rate
+        </button>
+    </div>
+    <button id="show-total" onclick="totalProduction()">
+        Production
+    </button>
+</div>
+<div id="test">
+    <div class="production-data-day">
+        <div id="table-container">
+            <table>
+                <tr>
+                    <th>Shed Letter</th>
 
-// function totalProduction() {
-// 	information.innerHTML = `<strong>Welcome to our company</strong><button onclick="anotheventPage()">click</button><div id="test"></div>`;
-// }
+                    <th>Numbers of Litres</th>
+
+                    <th>Duration</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="sum-production">
+            <div class="emty"></div>
+            <div class="total">
+                Total production in Litres:
+                <span id="prod-total">6787</span>
+            </div>
+        </div>
+        <div id="time-div"></div>
+    </div>
+</div>`;
+}
 
 function anotheventPage() {
 	console.log("Hello");
