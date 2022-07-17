@@ -188,3 +188,66 @@ h2 {
 	/* padding: 2px; */
 	font-size: medium;
 }
+
+/* Working on the Dashboard card */
+.dashboard-section {
+	width: 90%;
+	margin: auto;
+}
+.data-info-cards {
+	display: flex;
+	align-items: center;
+	width: 100%;
+	justify-content: space-between;
+	margin-top: 20px;
+}
+.total-staff {
+	display: flex;
+	align-items: center;
+	font-size: 10px;
+	font-weight: 200;
+}
+.total-staff > img {
+	height: 10px;
+	margin-right: 3px;
+	color: grey !important;
+}
+.total-staff > h3 {
+	font-weight: 300;
+	color: grey;
+	font-size: 10px;
+}
+.percent {
+	font-size: 10px;
+	font-weight: 300;
+	margin-left: 5px;
+	color: #47bb9c;
+}
+.employ-weeks {
+	display: flex;
+	align-items: center;
+	margin-top: 10px;
+	/* justify-content: space-around; */
+}
+.employ-weeks > h3 {
+	font-size: 10px;
+	font-weight: 300;
+	margin-left: 5px;
+	color: gray;
+}
+.data-cards > h1 {
+	margin-top: 10px;
+	font-family: "Alfa Slab One", cursive;
+	color: #73879c;
+}
+.empty-line {
+	background-color: grey;
+	width: 2px;
+	height: 60px;
+}
+.cows {
+	color: aquamarine !important;
+}
+.sold {
+	color: goldenrod !important;
+}
