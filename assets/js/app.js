@@ -15,27 +15,9 @@ function dashboardPage() {
                         <span class="material-symbols-rounded">
                             arrow_drop_up
                         </span>
-                        <p><span> 16%</span> Litres</p>
+                        <p><span> 40%</span> Litres</p>
                     </div>
                     <p>Ayrshire</p>
-                    <h6>Health Status: <span>Healthy</span></h6>
-                </div>
-            </div>
-        </div>
-        <div class="breed-card">
-            <div class="cow-img">
-                <img src="./assets/images/Brown-Swiss.jpg" alt="" />
-            </div>
-            <div class="container-card">
-                <div class="empty-card"></div>
-                <div class="text-element">
-                    <div class="icons-elements">
-                        <span class="material-symbols-rounded">
-                            arrow_drop_up
-                        </span>
-                        <p><span> 16%</span> Litres</p>
-                    </div>
-                    <p>Brown-Swiss</p>
                     <h6>Health Status: <span>Healthy</span></h6>
                 </div>
             </div>
@@ -58,11 +40,29 @@ function dashboardPage() {
                 </div>
             </div>
         </div>
+        <div class="breed-card">
+            <div class="cow-img">
+                <img src="./assets/images/Brown-Swiss.jpg" alt="" />
+            </div>
+            <div class="container-card">
+                <div class="empty-card"></div>
+                <div class="text-element">
+                    <div class="icons-elements">
+                        <span class="material-symbols-rounded">
+                            arrow_drop_up
+                        </span>
+                        <p><span> 30%</span> Litres</p>
+                    </div>
+                    <p>Brown-Swiss</p>
+                    <h6>Health Status: <span>Healthy</span></h6>
+                </div>
+            </div>
+        </div>
     </div>
 </div>`;
 }
 
-function InformationPage() {
+function totalProduction() {
 	information.innerHTML = `<strong>Welcome to our company</strong><button onclick="anotheventPage()">click</button><div id="test"></div>`;
 }
 

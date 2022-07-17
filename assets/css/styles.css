@@ -191,7 +191,7 @@ h2 {
 
 /* Working on the Dashboard card */
 .dashboard-section {
-	width: 95%;
+	width: 92%;
 	margin: auto;
 }
 .data-info-cards {
@@ -328,4 +328,44 @@ h2 {
 	margin-top: 10px;
 	font-weight: 500;
 	font-family: "Alfa Slab One", cursive;
+}
+
+/* Styling production section */
+.production-section {
+	/* margin-top: 10px; */
+	display: flex;
+	justify-content: space-between;
+}
+#show-total {
+	font-size: 10px;
+	padding: 6px;
+	font-weight: 900;
+	background-color: #47c247;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+#show-total:hover {
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+	color: #2a3f54;
+}
+.empty-div {
+	font-size: 9px;
+	display: block;
+	margin-top: 10px;
+}
+.empty-div > input {
+	font-size: 10px;
+	padding: 5px;
+	width: 80px;
+	box-sizing: border-box;
+	border: 0.5px solid #73879c;
+	border-radius: 4px;
+	background-repeat: no-repeat;
+	transition: width 0.4s ease-in-out;
+}
+.empty-div > input[type="text"]:focus {
+	width: 130px;
+	border: none !important;
 }
