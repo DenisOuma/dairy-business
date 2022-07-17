@@ -108,7 +108,7 @@ function productionPage() {
 }
 
 function salesInYears() {
-	evntlisten.innerHTML = `<div class="dashboard-section">
+	totalSales.innerHTML = `<div class="dashboard-section">
     <h1>Production Report</h1>
 </div>
 <div class="production-section">
