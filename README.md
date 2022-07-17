@@ -47,7 +47,7 @@ https://www.linkedin.com/in/denisouma/
 
 The webpage address:
 
-https://denisouma.github.io/agri-plus/
+https://denisouma.github.io/dairy-business/
 
 ## License information
 
