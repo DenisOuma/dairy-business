@@ -8,6 +8,9 @@ body {
 }
 .material-symbols-rounded {
 	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+	color: #e5e5e5 !important;
+	margin-right: 10px;
+	font-size: small;
 }
 
 .container {
@@ -18,14 +21,15 @@ body {
 /* styling the side bar */
 .side-bar {
 	background-color: #2a3f54;
-	width: 15%;
+	width: 20%;
 	height: 100vh;
-	padding: 20px;
 }
 .logo {
 	display: flex;
 	align-items: center;
-	margin-bottom: 30px;
+	/* margin-bottom: 10px; */
+	padding: 5px 20px 8px 10px;
+	border-bottom: 0.5px solid gainsboro;
 }
 .admin-profile-img {
 	height: 50px;
@@ -36,6 +40,7 @@ body {
 	width: inherit;
 	object-fit: cover;
 	border-radius: 50%;
+	cursor: pointer;
 }
 .logo-img {
 	height: 30px;
@@ -58,6 +63,7 @@ body {
 .admin-profile {
 	display: flex;
 	align-items: center;
+	padding: 20px;
 }
 .welcome {
 	margin-left: 10px;
@@ -70,8 +76,41 @@ h2 {
 .welcome > h2 {
 	font-size: 14px;
 	font-weight: 400 !important;
+	cursor: pointer;
 }
 .welcome > h4 {
 	font-size: 9px;
 	/* font-weight: 400 !important; */
+}
+.sidebar-options {
+}
+.sidebar-options > h3 {
+	color: blanchedalmond;
+	font-size: 16px;
+	font-weight: 400;
+	margin-bottom: 10px;
+	padding: 20px;
+}
+.list-option > ul > li {
+	text-decoration: none;
+	list-style: none;
+	margin-top: 10px;
+	background-color: inherit;
+}
+.list-option .btn-options {
+	background-color: #2a3f54;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	font-size: 10px;
+	border: none;
+	cursor: pointer;
+	padding: 5px 0 5px 20px;
+	color: blanchedalmond;
+	font-weight: 400 !important;
+}
+.list-option .btn-options:hover {
+	border-right: 4px solid goldenrod;
+	box-shadow: rgba(169, 194, 236, 0.25) 0px 4px 8px -2px,
+		rgba(31, 31, 32, 0.08) 0px 0px 0px 1px;
 }
