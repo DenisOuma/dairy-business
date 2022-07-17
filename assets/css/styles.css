@@ -28,7 +28,7 @@ body {
 	display: flex;
 	align-items: center;
 	/* margin-bottom: 10px; */
-	padding: 5px 20px 8px 10px;
+	padding: 5px 20px 10px 10px;
 	border-bottom: 0.5px solid gainsboro;
 }
 .admin-profile-img {
@@ -52,13 +52,14 @@ body {
 	width: inherit;
 	background-color: blanchedalmond;
 	border-radius: 50%;
-	border: 1px solid goldenrod;
+	border: 1px solid #47bb9c;
 }
 .logo > h1 {
 	color: blanchedalmond;
 	margin-left: 10px;
 	font-size: 15px !important;
 	cursor: pointer;
+	font-family: "Oleo Script", cursive;
 }
 .admin-profile {
 	display: flex;
@@ -110,7 +111,7 @@ h2 {
 	font-weight: 400 !important;
 }
 .list-option .btn-options:hover {
-	border-right: 4px solid goldenrod;
+	border-right: 4px solid #47bb9c;
 	box-shadow: rgba(169, 194, 236, 0.25) 0px 4px 8px -2px,
 		rgba(31, 31, 32, 0.08) 0px 0px 0px 1px;
 }
