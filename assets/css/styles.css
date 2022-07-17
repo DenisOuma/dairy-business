@@ -191,7 +191,7 @@ h2 {
 
 /* Working on the Dashboard card */
 .dashboard-section {
-	width: 90%;
+	width: 95%;
 	margin: auto;
 }
 .data-info-cards {
@@ -250,4 +250,82 @@ h2 {
 }
 .sold {
 	color: goldenrod !important;
+}
+
+/* Card design for the cow */
+.breed-card {
+	height: 250px;
+	width: 200px;
+	cursor: pointer;
+	/* background-color: red; */
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+		rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+.breed-card:hover {
+	background-color: #2a3f54;
+	color: antiquewhite;
+}
+.card-cows {
+	margin-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.cow-img {
+	height: 200px;
+	width: 200px;
+	border-radius: 5px;
+}
+.cow-img > img {
+	height: inherit;
+	width: inherit;
+	border-radius: 5px;
+	object-fit: cover;
+	border-bottom-right-radius: 900px;
+}
+.container-card {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.icons-elements {
+	display: flex;
+	align-items: center;
+	margin-left: 10px;
+	text-align: right;
+
+	float: left;
+}
+.text-element {
+	float: left;
+	text-align: right;
+	align-items: right;
+	margin-right: 10px;
+}
+.icons-elements > span {
+	color: #47bb9c !important;
+	padding-top: 1px;
+}
+.icons-elements > p > span {
+	color: #47bb9c;
+	font-size: 10px;
+	text-align: right;
+}
+.icons-elements > p {
+	color: #73879c;
+	font-size: 10px;
+}
+.text-element > h6 {
+	font-size: 8px;
+	color: gray;
+}
+.text-element > h6 > span {
+	color: rgb(3, 107, 9);
+}
+.dashboard-section > h1 {
+	font-size: 20px;
+	margin-top: 10px;
+	font-weight: 500;
+	font-family: "Alfa Slab One", cursive;
 }
