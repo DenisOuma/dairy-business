@@ -78,3 +78,30 @@ function calculateMonthlyIncome(selling_price) {
 		console.log(prefix + month + " is " + monthTotal);
 	});
 }
+
+function monthlySalesIncome() {
+	let sum = 0;
+	let BuyingPrice = Number(document.getElementById("buying").value);
+	const tableContainer = document.getElementById("table-container");
+	const prodTotalContainer = document.getElementById("prod-total");
+	let tableString = `	<table id="">
+    <tr>
+        <th>Months</th>
+
+        <th>Price In KSH</th>
+
+        <th>Rates</th>
+    </tr>`;
+	Object.keys(months).forEach((month) => {
+		let monthTotal = months[month] * BuyingPrice * totalResult();
+		sum += monthTotal;
+		tableString += `<tr>
+        <td>${month}</td>
+        <td>${monthTotal}</td>
+        <td>${BuyingPrice}</td>
+    </tr>`;
+	});
+	tableString += "</table>";
+	tableContainer.innerHTML = tableString;
+	prodTotalContainer.innerText = sum;
+}
