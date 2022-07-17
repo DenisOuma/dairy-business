@@ -170,47 +170,36 @@
 							<div class="production-section">
 								<div class="empty-div">
 									<label for="Enter ">Buying Rate</label>
-									<input type="text" placeholder="Brookside Buying Rate" />
+									<input id="buying" type="text" placeholder="Ksh. " />
+									<label for="Enter ">Weeks/years</label>
+									<input id="days" type="text" placeholder="Weeks or Years" />
+									<button onclick="submitInputs()" class="income-rate">
+										Income Rate
+									</button>
 								</div>
-								<button id="show-total" onclick="totalProduction1()">
-									Total Production
+								<button id="show-total" onclick="totalProduction()">
+									Production
 								</button>
 							</div>
 							<div id="test">
 								<div class="production-data-day">
-									<table>
-										<tr>
-											<th>Shed Letter</th>
+									<div id="table-container">
+										<table>
+											<tr>
+												<th>Shed Letter</th>
 
-											<th>Numbers of Litres</th>
+												<th>Numbers of Litres</th>
 
-											<th>Duration</th>
-										</tr>
-										<tr>
-											<td>A</td>
-											<td>510</td>
-											<td>A day</td>
-										</tr>
-										<tr>
-											<td>B</td>
-											<td>510</td>
-											<td>A day</td>
-										</tr>
-										<tr>
-											<td>C</td>
-											<td>510</td>
-											<td>A day</td>
-										</tr>
-										<tr>
-											<td>D</td>
-											<td>510</td>
-											<td>A day</td>
-										</tr>
-									</table>
+												<th>Duration</th>
+											</tr>
+										</table>
+									</div>
+
 									<div class="sum-production">
 										<div class="emty"></div>
 										<div class="total">
-											Total production in Litres: <span>6787</span>
+											Total production in Litres:
+											<span id="prod-total">6787</span>
 										</div>
 									</div>
 								</div>
@@ -220,6 +209,7 @@
 				</div>
 			</div>
 		</div>
+		<script src="./assets/js/pages.js"></script>
 
 		<script src="./assets/js/app.js"></script>
 	</body>
