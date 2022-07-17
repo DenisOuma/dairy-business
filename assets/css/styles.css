@@ -337,8 +337,8 @@ h2 {
 	justify-content: space-between;
 }
 #show-total {
-	font-size: 10px;
-	padding: 6px;
+	font-size: 8px;
+	/* padding: 5px; */
 	font-weight: 900;
 	background-color: #47c247;
 	color: #fff;
@@ -368,4 +368,41 @@ h2 {
 .empty-div > input[type="text"]:focus {
 	width: 130px;
 	border: none !important;
+}
+.production-data-day {
+	margin: 0 auto;
+	width: 100%;
+	justify-content: center;
+
+	height: 600;
+}
+.production-data-day > table {
+	margin: auto;
+	border-collapse: collapse;
+	font-size: 10px;
+	width: 80%;
+	margin-top: 20px;
+	border-radius: 5px !important;
+}
+td,
+th {
+	border: 1px solid #2a3f54;
+	text-align: left;
+	padding: 8px;
+	font-weight: 300;
+}
+
+tr:nth-child(even) {
+	background-color: #dddddd;
+}
+.sum-production {
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+	margin: auto;
+	margin-top: 10px;
+	font-size: 10px;
+}
+.total > span {
+	color: #47c247;
 }
