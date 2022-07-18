@@ -28,12 +28,12 @@ body {
 	display: flex;
 	align-items: center;
 	/* margin-bottom: 10px; */
-	padding: 5px 20px 10px 10px;
-	border-bottom: 0.5px solid gainsboro;
+	padding: 10px 30px 20px 20px;
+	border-bottom: 1px solid gainsboro;
 }
 .admin-profile-img {
-	height: 50px;
-	width: 50px;
+	height: 100px;
+	width: 100px;
 }
 .admin-profile-img > img {
 	height: inherit;
@@ -43,8 +43,8 @@ body {
 	cursor: pointer;
 }
 .logo-img {
-	height: 30px;
-	width: 30px;
+	height: 70px;
+	width: 70px;
 	cursor: pointer;
 }
 .logo-img > img {
@@ -56,44 +56,44 @@ body {
 }
 .logo > h1 {
 	color: blanchedalmond;
-	margin-left: 10px;
-	font-size: 15px !important;
+	margin-left: 20px;
+	font-size: 30px !important;
 	cursor: pointer;
 	font-family: "Oleo Script", cursive;
 }
 .admin-profile {
 	display: flex;
 	align-items: center;
-	padding: 20px;
+	padding: 40px;
 }
 .welcome {
-	margin-left: 10px;
+	margin-left: 20px;
 }
 .welcome h4,
 h2 {
 	color: blanchedalmond;
-	font-weight: 300;
+	font-weight: 400;
 }
 .welcome > h2 {
-	font-size: 14px;
+	font-size: 30px;
 	font-weight: 400 !important;
 	cursor: pointer;
 }
 .welcome > h4 {
-	font-size: 9px;
+	font-size: 18px;
 	/* font-weight: 400 !important; */
 }
 .sidebar-options > h3 {
 	color: blanchedalmond;
-	font-size: 16px;
+	font-size: 30px;
 	font-weight: 400;
-	margin-bottom: 10px;
-	padding: 20px;
+	margin-bottom: 20px;
+	padding: 40px;
 }
 .list-option > ul > li {
 	text-decoration: none;
 	list-style: none;
-	margin-top: 10px;
+	margin-top: 25px;
 	background-color: inherit;
 }
 .list-option .btn-options {
@@ -101,15 +101,15 @@ h2 {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	font-size: 10px;
+	font-size: 20px;
 	border: none;
 	cursor: pointer;
-	padding: 5px 0 5px 20px;
+	padding: 10px 0 10px 30px;
 	color: blanchedalmond;
 	font-weight: 400 !important;
 }
 .list-option .btn-options:hover {
-	border-right: 4px solid #47bb9c;
+	border-right: 8px solid #47bb9c;
 	box-shadow: rgba(169, 194, 236, 0.25) 0px 4px 8px -2px,
 		rgba(31, 31, 32, 0.08) 0px 0px 0px 1px;
 }
@@ -124,8 +124,8 @@ h2 {
 	/* width: 80%; */
 	justify-content: space-between;
 	background-color: #ededed;
-	padding: 10px;
-	border-bottom: 0.5px solid gainsboro;
+	padding: 20px;
+	border-bottom: 1px solid gainsboro;
 	box-shadow: rgba(0, 0, 0, 0.35) 0px -15px 36px -28px inset;
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
 		rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
@@ -144,7 +144,7 @@ h2 {
 
 #close-open .material-symbols-rounded {
 	color: #2a3f54 !important;
-	font-size: large;
+	font-size: 55px;
 	padding: none;
 	margin: none;
 	justify-content: center;
@@ -154,19 +154,19 @@ h2 {
 	background-color: #2a3f54;
 	color: blanchedalmond !important;
 	border-radius: 50%;
-	padding: 2px;
-	font-size: medium;
+	padding: 5px;
+	font-size: 50px;
 }
 #drop-down .material-symbols-rounded {
 	color: #2a3f54 !important;
 }
 .nav-profile > h3 {
-	font-size: 9px;
+	font-size: 25px;
 	font-weight: 400;
 }
 .nav-profile-img {
-	height: 24px;
-	width: 24px;
+	height: 50px;
+	width: 50px;
 	border-radius: 50%;
 	border: 0.5px solid goldenrod;
 }
