@@ -10,7 +10,7 @@ body {
 	font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
 	color: #e5e5e5 !important;
 	margin-right: 10px;
-	font-size: large`;
+	font-size: large;
 }
 
 .container {
@@ -186,7 +186,7 @@ h2 {
 	color: blanchedalmond !important;
 	border-radius: 50%;
 	/* padding: 2px; */
-	font-size: medium;
+	font-size: large;
 }
 
 /* Working on the Dashboard card */
@@ -204,46 +204,47 @@ h2 {
 .total-staff {
 	display: flex;
 	align-items: center;
-	font-size: 10px;
+	font-size: 30px;
 	font-weight: 200;
 }
 .total-staff > img {
-	height: 10px;
-	margin-right: 3px;
+	height: 20px;
+	margin-right: 6px;
 	color: grey !important;
 }
 .total-staff > h3 {
-	font-weight: 300;
+	font-weight: 400;
 	color: grey;
-	font-size: 10px;
+	font-size: 20px;
 }
 .percent {
-	font-size: 10px;
+	font-size: 20px;
 	font-weight: 300;
-	margin-left: 5px;
+	margin-left: 10px;
 	color: #47bb9c;
 }
 .employ-weeks {
 	display: flex;
 	align-items: center;
-	margin-top: 10px;
+	margin-top: 20px;
 	/* justify-content: space-around; */
 }
 .employ-weeks > h3 {
-	font-size: 10px;
+	font-size: 20px;
 	font-weight: 300;
-	margin-left: 5px;
+	margin-left: 10px;
 	color: gray;
 }
 .data-cards > h1 {
 	margin-top: 10px;
 	font-family: "Alfa Slab One", cursive;
 	color: #73879c;
+	font-size: 60px;
 }
 .empty-line {
 	background-color: grey;
-	width: 2px;
-	height: 60px;
+	width: 4px;
+	height: 90px;
 }
 .cows {
 	color: aquamarine !important;
