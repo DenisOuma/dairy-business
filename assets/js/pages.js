@@ -71,14 +71,14 @@ function productionPage() {
     <div class="empty-div">
         <label for="Enter ">Buying Rate</label>
         <input id="buying" type="text" placeholder="Ksh. " />
-        <label for="Enter ">Weeks/years</label>
-        <input id="days" type="text" placeholder="Weeks or Years" />
+        <label for="Enter ">Days</label>
+        <input id="days" type="text" placeholder="Number of Days" />
         <button onclick="submitInputs()" class="income-rate">
             Income Rate
         </button>
     </div>
     <button id="show-total" onclick="totalProduction()">
-        Production
+        Total Production
     </button>
 </div>
 <div id="test">
@@ -99,7 +99,7 @@ function productionPage() {
             <div class="emty"></div>
             <div class="total">
                 Total production in Litres:
-                <span id="prod-total">6787</span>
+                <span id="prod-total">0</span>
             </div>
         </div>
         <div id="time-div"></div>
@@ -115,8 +115,7 @@ function salesInYears() {
     <div class="empty-div">
         <label for="Enter ">Buying Rate</label>
         <input id="buying" type="text" placeholder="Ksh. " />
-        <label for="Enter ">Weeks/years</label>
-        <input id="days" type="text" placeholder="Weeks or Years" />
+        
         <button onclick="submitInputs()" class="income-rate">
             Income Rate
         </button>
