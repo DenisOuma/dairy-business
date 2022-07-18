@@ -177,6 +177,9 @@ h2 {
 	border-radius: 50%;
 	cursor: pointer;
 }
+.text-element > P {
+	font-size: 25px !important;
+}
 #drop-down {
 	border: none;
 	cursor: pointer;
