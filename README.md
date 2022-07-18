@@ -17,7 +17,7 @@
 
 ## General info
 
-This project is an online store for the AgriPlus agricultural cooperative, which gives farmers a platform to connect with consumers across the nation and sell or buy their produce while interacting with them to produce high-quality produce. Users can register and create an account, from which they can buy and order agricultural products from the growers. The page also has a description of some of their services, a contact form, and an additional form that allows users to sign up for Agriplus's newsletter to receive notifications of any interesting farming bargains or offers. This facilitates communication with both customers and farmers.
+This project is an online dairy farm management system that will aid in overseeing milk production, paying employees, calculating income rates, and maintaining records of milk production with the best cows. The system is automated, allowing users to input data at any time and monitor the condition of the cows.
 
 ## Technologies
 
